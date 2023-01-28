@@ -27,7 +27,7 @@ getButton.addEventListener('click', e => {
 	getExchangeRate()
 })
 
-const exchangeIcon = document.querySelector('.drop__list')
+const exchangeIcon = document.querySelector('.money__exchange-img')
 exchangeIcon.addEventListener('click', () => {
 	let tempCode = fromCurrency.value
 	fromCurrency.value = toCurrency.value
