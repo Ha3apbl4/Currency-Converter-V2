@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--  -->
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!--  -->
+		<!-- icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+		<!--  -->
+		<title>Currency Converter V1</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1 class="header__title">Currency Converter</h1>
+			</header>
+			<main class="main">
+				<form class="main__form" action="#">
+					<div class="amount">
+						<p class="amount">Enter Amount</p>
+						<input class="main__input" type="text" value="1" />
+					</div>
+
+					<div class="drop__list">
+						<div class="from">
+							<p>from</p>
+							<div class="select__box">
+								<select class="value__box">
+									<option value="usd">USD</option>
+									<option value="uah">UAH</option>
+									<option value="kwd">KWD</option>
+									<option value="jod">JOD</option>
+									<option value="eur">EUR</option>
+								</select>
+							</div>
+						</div>
+						<div class="icon">
+							<i class="fas fa__exchange-alt"></i>
+						</div>
+						<a class="money__exchange-btn" href="#"
+							><img
+								class="money__exchange-img"
+								src="img/money-exchange.png"
+								alt=""
+						/></a>
+
+						<div class="to">
+							<p>to</p>
+							<div class="select__box">
+								<select class="value__box">
+									<option value="usd">USD</option>
+									<option value="uah">UAH</option>
+									<option value="kwd">KWD</option>
+									<option value="jod">JOD</option>
+									<option value="eur">EUR</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="exchange__rate">
+						<p class="value__one">Getting exchange rate...</p>
+					</div>
+					<button class="rate">Get Exchange Rate</button>
+				</form>
+			</main>
+		</div>
+		<script src="js/countryList.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

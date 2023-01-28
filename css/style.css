@@ -1,0 +1,106 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #675afe;
+}
+p {
+	padding: 8px 0 8px 0;
+	font-size: 18px;
+}
+.wrapper {
+	width: 600px;
+	padding: 30px;
+	border-radius: 7px;
+	background: #fff;
+	margin-top: 30px;
+}
+.header__title {
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+}
+.main__form {
+	margin: 40px 0 10px 0;
+}
+.main__input,
+.value__box,
+.rate,
+.amount {
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.main__input {
+	border: 1px solid #999;
+}
+
+.drop__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.drop__list .select__box {
+	display: flex;
+	border-radius: 5px;
+	border: 1px solid #999;
+	padding: 4px 8px;
+}
+.select__box select::-webkit-scrollbar {
+	width: 8px;
+}
+.select__box select::-webkit-scrollbar-track {
+	background-color: #fff;
+}
+.select__box select::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 8px;
+	border-right: 2px solid #fff;
+}
+.flag__icon {
+	display: flex;
+	height: 34px;
+	width: 54px;
+	align-items: center;
+	justify-content: center;
+}
+.value__box {
+	width: auto;
+}
+.main__input {
+	height: 50px;
+	padding: 0 15px;
+	font-size: 17px;
+	border: 1px solid #999;
+}
+.main__input:focus {
+	border: 2px solid #675afe;
+	padding: 0 14px;
+	transition: all 0.2s ease;
+}
+.money__exchange-img {
+	width: 40px;
+	margin: 40px 50px 0 0;
+}
+.rate {
+	padding: 12px 24px;
+	font-size: 17px;
+	border: 1px solid #999;
+	background-color: #675afe;
+	color: #fff;
+	cursor: pointer;
+}
+
+.exchange__rate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0 40px 0;
+}
+.exchange__rate span {
+	margin: 0 0 0 54px;
+}
